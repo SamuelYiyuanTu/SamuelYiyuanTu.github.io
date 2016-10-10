@@ -1,0 +1,77 @@
+/* set unorder list*/
+ul 
+	{
+		list-style-type: none; /*symble in front of the list*/
+		margin:0;
+		padding:10;
+		overflow: hidden;
+		background-color: rgb(153,0,0);
+		font-size: 20px;
+
+	}
+
+li {float: right;}
+
+li a, .dropbtn 
+	{
+		display: inline-block;
+		color:white;
+		text-align: center;
+		text-decoration: none;
+		padding: 24px 35px;
+	}
+
+
+li a:hover,.dropdown:hover .dropbtn  {background-color: red}
+li .dropdown {display: inline-block;}
+.dropdown-content 
+	{
+		display:none;
+		position:absolute;
+		background-color: #f9f9f9;
+		width:160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+	}  
+ 
+ .dropdown-content a 
+ 	{
+ 		color: black;
+ 		padding: 14px 16px;
+ 		text-decoration: none;
+ 		display: block;
+ 		text-align: center;
+ 		
+ 	}
+
+.dropdown-content a:hover {background-color: #8c8c8c; font-weight: bold;}
+.dropdown:hover .dropdown-content {display:block;}
+
+.fnb 
+	{
+		position:fixed;
+		width: 100%;
+		margin-top: 0px;
+		top:0px;
+		z-index: 1;
+	}
+
+#email 
+	{ 
+		position:absolute;
+		top: 20px;
+		left:20px;
+		color:white;
+		font-weight: bold;
+	}
+
+	body {
+		margin-top: 0px;
+ 		margin-right: 0px;
+ 		margin-bottom: 0px;
+ 		margin-left: 0px;
+ 		height:100%;
+ 		
+
+ 	}
+
